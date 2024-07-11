@@ -116,7 +116,6 @@ def softmax_regression_epoch(X, y, theta, lr = 0.1, batch=100):
 
         grad = X_batch.T @ (Z - I) / batch
         theta -= lr * grad
-        print(theta[290:300])
     ### END YOUR CODE
 
 
